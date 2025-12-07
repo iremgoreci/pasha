@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Pasha</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="kopek.html">Köpek Mamaları</a></li>
+                    <li><a href="kedi.html">Kedi Mamaları</a></li>
+                    <li><a href="petcare.html">PetCare Merkezi</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="contact-page">
+        <div class="row">
+            <div class="contact-col">
+                <h2>Bize Ulaşın!</h2>
+                <p>Sorularınız ve görüşleriniz için formu doldurun.</p>
+                <form id="contact-form">
+                    <input type="text"  id="isim" placeholder="Adınız soyadınız" required>
+                    <input type="email" id="eposta" placeholder="E-posta adresiniz" required>
+                    <input type="text" id="konu" placeholder="Konu" required>
+                    <textarea rows="3" id="mesaj" placeholder="Mesajınız" required></textarea>
+                    <button type="submit"  onclick="mesajGonder()" class="gonder">GÖNDER</button>
+                </form>
+            </div>
+
+            <div class="contact-col info-panel">
+                <h2>Ofisimize Bekleriz</h2>
+                <p>Minik dostlarınızla birlikte bizi ziyaret edebilirsiniz.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-house"></i>
+                    <div>
+                        <h5>Merkez Ofis</h5>
+                        <p>İstanbul, Türkiye</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h5>Telefon</h5>
+                        <p>+90 212 123 45 67</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h5>E-Posta</h5>
+                        <p>info@pashamama.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    
+
+
+    <footer>
+        <div class="footer-row">
+            
+            <div class="footer-col">
+                <h2 class="footer-logo">Pasha.</h2>
+                <p class="footer-text">
+                    Minik dostlarınız için doğadan gelen lezzet. "Dengeli Beslenme, Mutlu Yaşam" ilkesiyle en taze mamaları üretiyoruz.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Hızlı Erişim</h3>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="kopek.html">Köpek Mamaları</a></li>
+                    <li><a href="kedi.html">Kedi Mamaları</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>İletişim</h3>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> İstanbul, Türkiye</li>
+                    <li><i class="fa-solid fa-phone"></i> +90 212 123 45 67</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@pashamama.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Bizi Takip Edin</h3>
+                <div class="social-links">
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pasha Pet Food. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

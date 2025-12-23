@@ -26,6 +26,7 @@ ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
                     <li><a href="hakkimizda.html">Hakkımızda</a></li>
                     <li><a href="galeri.html">Galeri</a></li>
                     <li><a href="iletisim.html">İletişim</a></li>
+                    <li><a href="#" onclick="toggleCart(); return false;"><i class="fa-solid fa-cart-shopping"></i> Sepet <span id="cart-count" class="cart-badge">0</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -57,6 +58,7 @@ ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
                 <p>799 TL<br>Yüksek protein, temel vitaminler ve minerallerle zenginleştirilmiş özel formülü, 
                     minik dostunuzun güçlü kemik ve kas gelişimini desteklerken, oyun dolu enerjilerini artırır. 
                     Küçük taneleri sayesinde kolayca sindirilebilir.</p>
+                <button class="btn-add-cart" onclick="addToCart('Pasha – Puppy Formula', 799, 'images/kopekyavrumama.png')">Sepete Ekle</button>
             </div>
 
             <div class="column">
@@ -65,6 +67,7 @@ ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
                 <p>699 TL<br>Yüksek kaliteli protein, taurin, omega-3 ve omega-6 yağ asitleri içeren formülü, 
                     parlak tüyler, güçlü bağışıklık ve optimal sindirim sağlığı sunar. Her yaştan yetişkin 
                     köpek için eksiksiz lezzetli tam beslenme.</p>
+                <button class="btn-add-cart" onclick="addToCart('Pasha – Adult Premium', 699, 'images/kopekyetiskinmama.png')">Sepete Ekle</button>
             </div>
 
             <div class="column">
@@ -73,6 +76,7 @@ ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
                 <p>599 TL<br>Düşük yağ ve kontrollü kalori içeriği ile ideal kiloyu korumaya yardımcı olurken, 
                     dengeli mineral seviyesi idrar yolu sağlığını destekler. Tokluk hissini artıran liflerle 
                     kısırlaştırılmış köpeğinizin tüm besin ihtiyaçlarını karşılar.</p>
+                <button class="btn-add-cart" onclick="addToCart('Pasha – Sterilised Care', 599, 'images/kopekkisirmama.png')">Sepete Ekle</button>
             </div>
         </div>
     </section>
@@ -121,6 +125,6 @@ ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
         <p>&copy; 2025 Pasha Pet Food. Tüm hakları saklıdır.</p>
     </div>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
